@@ -41,7 +41,6 @@ class EventForm extends Component {
       this.props.createEvent(this.state.event)
     }
 
-    this.props.createEvent(this.state.event)
     console.log(this.state.event)
   }
 

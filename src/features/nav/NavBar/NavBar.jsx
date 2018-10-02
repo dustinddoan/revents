@@ -35,6 +35,7 @@ class NavBar extends Component {
             </Menu.Item>
             {/* use as={NavLink} show active link */}
             <Menu.Item as={NavLink} to='/events' name="Events" />
+            <Menu.Item as={NavLink} to='/test' name="Test" />
             {authenticated && 
             <Menu.Item as={NavLink} to='/people' name="People" />}
 
